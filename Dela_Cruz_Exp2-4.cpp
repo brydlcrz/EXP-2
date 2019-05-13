@@ -11,7 +11,7 @@ int main()
 	{
 		if(begin<=10)
 		{
-		cout<<start<<",";
+		cout<<begin<<",";
 		continue;
 		}
 		cout<<++begin<<",";
