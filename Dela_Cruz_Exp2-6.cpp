@@ -5,21 +5,21 @@ using namespace std;
 
 int main()
 {
-int n = 1, sum;
+int a = 1, sum;
 
-while(n = 1)
+while(a = 1)
 	{
-	cout<<"Enter your number: "; cin>>n;
-
-	if(n>0)
+	cout<<"Enter your number: "; cin>>a;
+	if(a>0)
 		{
-		sum = (n*(n+1))/2;
-		cout<<"The total of all numbers from 1 to "<<n<<" is "<<sum<<".\n";	}
-
+		sum = (a*(a+1))/2;
+		cout<<"The total of all numbers from 1 to "<<a<<" is "<<sum<<".\n";	
+		}
 	else
 		{
-		cout<<"Thank you!\n";	
-		break;	 }
+		cout<<"Thank you & God bless!\n";	
+		break;	
+		}
 	}
 
 getch();
