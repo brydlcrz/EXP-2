@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 	int begin;
-	for(begin=1; begin<=30; begin++)
+	for(begin=1; begin<=28; begin++)
 	{
 		if(begin<=10)
 		{
